@@ -1,10 +1,21 @@
 @import "_variables";
 
-body {
-  background: $bg;
+h2 {
+  color: $bg;
 }
 
-h1 {
-  color: lightblue;
-  font-size: $title;
+.box {
+  margin-top: 20px;
+  &:hover {
+    background-color: lightseagreen;
+  }
+  h2 {
+    color: lightblue;
+    &:hover {
+      color: lime;
+    }
+  }
+  button {
+    color: lightcoral;
+  }
 }
