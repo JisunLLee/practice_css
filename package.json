@@ -1,0 +1,24 @@
+{
+  "name": "practice_css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "gulp dev"
+  },
+  "author": "Jisun Lucia Lee <luciajisunlee@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "^7.17.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1"
+  }
+}
